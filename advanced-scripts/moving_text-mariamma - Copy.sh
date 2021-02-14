@@ -66,7 +66,10 @@ ffmpeg -i subtitle.srt input.ass
 
 ffmpeg -i input1.mp4 -vf "ass=input.ass" output.mp4
 
-ffmpeg -i Clouds.mp4 -vf "ass=input.ass" -y output.mp4
+ffmpeg -i ../background1.mp4 -vf "ass=input.ass" -y output.mp4
+
+ffmpeg -i ../../ffmpeg-video-slideshow-scripts-master/transition_bars_horizontal_two.mp4 -vf "ass=input2.ass" -y ../output.mp4
+
 
 Style: Default,Tahoma,16,&H00000000,&H00ffffff,&H00ffffff,&H00c0c0c0,-1,0,0,0,100,100,0,0.00,1,2,3,2,20,20,20,1
 
@@ -206,4 +209,34 @@ Then you overlay them looping over the video:
 ffmpeg -y -i input.mp4 -filter_complex "[0]split[base][text];[text]drawtext=fontfile=HelveticaNeue.ttf:text='Testing': fontcolor=white:\
 fontsize=40: box=1: boxcolor=black@0.5:boxborderw=5:x=(w-text_w)/2:y=(h-text_h)/2,format=yuva444p,fade=t=in:st=2:d=1:alpha=1,fade=t=out:st=3:d=1:alpha=1[subtitles]; \
 [base][subtitles]overlay" output.mp4
+
+
+
+To run all the scripts in a folder
+
+for f in *.sh; do  # or wget-*.sh instead of *.sh
+  bash "$f" -H 
+done
+
+
+
+
+To put a timer video on top on another video
+ffmpeg -i ../output.mp4 -vf "movie=../digital_clock.mp4, scale=320: -1 [inner]; [in][inner] overlay =10: 10 [out]" completed.mp4
+ffmpeg -i ../output.mp4 -vf "movie=../digital_clock.mp4, scale=320: -1 [inner]; [in][inner] overlay=enable='between(t\,05,35)'[out]" -y completed.mp4
+
+https://superuser.com/questions/1082477/ffmpeg-overlay-video-on-another-video-in-specific-time
+To put a timer video on top on another video - at a specific time
+
+ffmpeg -i ../output.mp4 -i digital_clock.mp4 -filter_complex "[0:0][1:0]overlay=enable='between(t\,05,35)'[out]" -shortest -map [out] -map 0:1 -pix_fmt yuv420p -c:a copy -c:v libx264 -crf 18  ../final_video.mp4
+
+Working
+ffmpeg -i ../output.mp4 -vf "movie=../digital_clock.mp4, scale=320: -1 [inner]; [in][inner] overlay=enable='between(t\,05,35)'[out]" -pix_fmt yuv420p -y completed.mp4
+
+
+
+
+How to cut a video based on time
+ffmpeg -i movie.mp4 -ss 00:00:03 -t 00:00:08 -async 1 cut.mp4
+
 
