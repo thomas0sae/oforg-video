@@ -230,6 +230,14 @@ To put a timer video on top on another video - at a specific time
 
 ffmpeg -i ../output.mp4 -i digital_clock.mp4 -filter_complex "[0:0][1:0]overlay=enable='between(t\,05,35)'[out]" -shortest -map [out] -map 0:1 -pix_fmt yuv420p -c:a copy -c:v libx264 -crf 18  ../final_video.mp4
 
+To delay the start of the top video, use the setpts filter.
+
+ffmpeg -i D:\ffmpeg\base_video.mp4 -i D:\ffmpeg\top_video.avi  -filter_complex \
+        "[1]setpts=PTS-STARTPTS+10/TB[top];
+        [0:0][top]overlay=enable='between(t\,10,15)'[out]" \
+       -shortest -map [out] -map 0:1 \
+       -pix_fmt yuv420p -c:a copy -c:v libx264 -crf 18  D:\ffmpeg\final_video.mp4
+
 Working
 ffmpeg -i ../output.mp4 -vf "movie=../digital_clock.mp4, scale=320: -1 [inner]; [in][inner] overlay=enable='between(t\,05,35)'[out]" -pix_fmt yuv420p -y completed.mp4
 
@@ -238,5 +246,8 @@ ffmpeg -i ../output.mp4 -vf "movie=../digital_clock.mp4, scale=320: -1 [inner]; 
 
 How to cut a video based on time
 ffmpeg -i movie.mp4 -ss 00:00:03 -t 00:00:08 -async 1 cut.mp4
+
+Some say this was better
+ffmpeg -ss 00:01:00 -i input.mp4 -to 00:02:00 -c copy output.mp4
 
 
