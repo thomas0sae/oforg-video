@@ -1,0 +1,23 @@
+[Script Info]
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+WrapStyle: 1
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,ML-TTKarthika,88,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,-1,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
+Style: S1,ML-TTKarthika,85,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,-1,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
+Style: S2,ML-TTKarthika,65,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,-1,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
+Style: S3,Calibri,85,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,0,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
+Style: S4,Calibri Light,65,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,0,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
+
+[Events]
+Format: Start, End, Style, Text
+Dialogue: 00:00:01.00,00:00:05.00,S1,{\pos(1010,500)}ചോദ്യം 1 
+Dialogue: 00:00:01.00,00:00:05.00,S3,{\pos(1010,700)}Question 1 
+Dialogue: 00:00:05.01,00:00:34.00,S1,{\pos(1010,750)}\N\Nമഞ്ജുവിനെ ചൂണ്ടിക്കാണിച്ചുകൊണ്ട് രാജു പറഞ്ഞു, "അവളുടെ ഏക സഹോദരന്റെ മകൻ  എന്റെ ഭാര്യയുടെ സഹോദരനാണ്". \N\Nമഞ്ജു രാജുവുമായി എങ്ങനെ ബന്ധപ്പെട്ടിരിക്കുന്നു?
+Dialogue: 00:00:05.01,00:00:34.00,S1,{\pos(1010,750)}\N\Nമഞ്ജുവിനെ ചൂണ്ടിക്കാണിച്ചുകൊണ്ട് രാജു പറഞ്ഞു, "അവളുടെ ഏക സഹോദരന്റെ മകൻ  എന്റെ ഭാര്യയുടെ സഹോദരനാണ്". \N\Nമഞ്ജു രാജുവുമായി എങ്ങനെ ബന്ധപ്പെട്ടിരിക്കുന്നു?
+Dialogue: 00:00:34.00,00:00:47.00,Default,{\pos(1010,500)} ഉത്തരം
+Dialogue: 00:00:37.10,00:00:47.00,S2,{\pos(1010,750)} മഞ്ജുവിന്റെ അമ്മായി അപ്പൻ ആണ് രാജു 
+

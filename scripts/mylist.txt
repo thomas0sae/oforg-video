@@ -1,2 +1,4 @@
-file chodhya-kudukka.mp4
+file invideo.mp4
+duration 07
 file output_audio_sub_clk.mp4
+duration 53

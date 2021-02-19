@@ -1,0 +1,8 @@
+file test.mp3
+duration 07
+file loop-only.mp3
+duration 08
+file loop-only.mp3
+duration 08
+file loop-only.mp3
+duration 08
