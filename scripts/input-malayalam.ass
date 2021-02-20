@@ -2,22 +2,89 @@
 PlayResX: 1920
 PlayResY: 1080
 ScaledBorderAndShadow: yes
-WrapStyle: 1
+WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,ML-TTKarthika,88,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,-1,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
-Style: S1,ML-TTKarthika,85,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,-1,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
-Style: S2,ML-TTKarthika,65,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,-1,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
-Style: S3,Calibri,85,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,0,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
-Style: S4,Calibri Light,65,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,0,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
+Style: S1,ML-TTKarthika,70,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,-1,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
+Style: S2,ML-TTKarthika,50,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,-1,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
+Style: S21,ML-TTKarthika,25,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,-1,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
+Style: S3,Calibri,60,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,0,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
+Style: S4,Calibri Light,40,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,0,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
+Style: S5,Comic Sans MS Italic,25,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,0,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
 
 [Events]
 Format: Start, End, Style, Text
-Dialogue: 00:00:01.00,00:00:05.00,S1,{\pos(1010,500)}ചോദ്യം 1 
-Dialogue: 00:00:01.00,00:00:05.00,S3,{\pos(1010,700)}Question 1 
-Dialogue: 00:00:05.01,00:00:34.00,S1,{\pos(1010,750)}\N\Nമഞ്ജുവിനെ ചൂണ്ടിക്കാണിച്ചുകൊണ്ട് രാജു പറഞ്ഞു, "അവളുടെ ഏക സഹോദരന്റെ മകൻ  എന്റെ ഭാര്യയുടെ സഹോദരനാണ്". \N\Nമഞ്ജു രാജുവുമായി എങ്ങനെ ബന്ധപ്പെട്ടിരിക്കുന്നു?
-Dialogue: 00:00:05.01,00:00:34.00,S1,{\pos(1010,750)}\N\Nമഞ്ജുവിനെ ചൂണ്ടിക്കാണിച്ചുകൊണ്ട് രാജു പറഞ്ഞു, "അവളുടെ ഏക സഹോദരന്റെ മകൻ  എന്റെ ഭാര്യയുടെ സഹോദരനാണ്". \N\Nമഞ്ജു രാജുവുമായി എങ്ങനെ ബന്ധപ്പെട്ടിരിക്കുന്നു?
-Dialogue: 00:00:34.00,00:00:47.00,Default,{\pos(1010,500)} ഉത്തരം
-Dialogue: 00:00:37.10,00:00:47.00,S2,{\pos(1010,750)} മഞ്ജുവിന്റെ അമ്മായി അപ്പൻ ആണ് രാജു 
-
+Dialogue: 00:00:01.00,00:00:15.00,S1,{\pos(1010,250)}ചോദ്യം 1
+Dialogue: 00:00:01.00,00:00:15.00,S2,{\pos(1010,450)}എമിലിനെ ചൂണ്ടിക്കാണിച്ചുകൊണ്ട് ഈശോ പറഞ്ഞു, "അവളുടെ ഏക സഹോദരന്റെ മകൻ  എന്റെ ഭാര്യയുടെ സഹോദരനാണ്".  എമിൽ ഈശോയുമായി എങ്ങനെ ബന്ധപ്പെട്ടിരിക്കുന്നു?
+Dialogue: 00:00:01.00,00:00:15.00,S3,{\pos(1010,700)}Question 1
+Dialogue: 00:00:01.00,00:00:15.00,S4,{\pos(1010,800)}What's the proper command to do that? (please note that what I need is to be notified, with a sound and possibly with a message, so I can accept any solution in these regards).
+Dialogue: 00:00:15.50,00:00:27.00,S1,{\pos(1010,250)}ഉത്തരം ഇതാണ്...   
+Dialogue: 00:00:15.50,00:00:27.00,S2,{\pos(1010,350)}എമിലിനെ അമ്മായി അപ്പൻ ആണ് ഈശോ 
+Dialogue: 00:00:15.50,00:00:27.00,S3,{\pos(1010,700)}And the Answer is...
+Dialogue: 00:00:15.50,00:00:27.00,S4,{\pos(1010,800)}Easo is emils appayi appan and something more
+Dialogue: 00:00:27.50,00:00:42.00,S1,{\pos(1010,250)}ചോദ്യം 2
+Dialogue: 00:00:27.50,00:00:42.00,S2,{\pos(1010,450)}മഞ്ജുവിനെ  ചൂണ്ടിക്കാണിച്ചുകൊണ്ട് രാജു പറഞ്ഞു, "അവളുടെ ഏക സഹോദരന്റെ മകൻ  എന്റെ ഭാര്യയുടെ സഹോദരനാണ്".  മഞ്ജു രാജുവുമായി എങ്ങനെ ബന്ധപ്പെട്ടിരിക്കുന്നു?
+Dialogue: 00:00:27.50,00:00:42.00,S3,{\pos(1010,700)}Question 2
+Dialogue: 00:00:27.50,00:00:42.00,S4,{\pos(1010,800)}What's the proper command to do that? (please note that what I need is to be notified, with a sound and possibly with a message, so I can accept any solution in these regards).
+Dialogue: 00:00:42.50,00:00:53.50,S1,{\pos(1010,250)}ഉത്തരം 2 ഇതാണ്...   
+Dialogue: 00:00:42.50,00:00:53.50,S2,{\pos(1010,350)}മഞ്ജുവിന്റെ അമ്മായി അപ്പൻ ആണ് രാജു 
+Dialogue: 00:00:42.50,00:00:53.50,S3,{\pos(1010,700)}And the Answer 2 is...
+Dialogue: 00:00:42.50,00:00:53.50,S4,{\pos(1010,800)}Manju is something of someone
+Dialogue: 00:00:54.00,00:01:09.00,S1,{\pos(1010,250)}ചോദ്യം 1
+Dialogue: 00:00:54.00,00:01:09.00,S2,{\pos(1010,450)}എമിലിനെ ചൂണ്ടിക്കാണിച്ചുകൊണ്ട് ഈശോ പറഞ്ഞു, "അവളുടെ ഏക സഹോദരന്റെ മകൻ  എന്റെ ഭാര്യയുടെ സഹോദരനാണ്".  എമിൽ ഈശോയുമായി എങ്ങനെ ബന്ധപ്പെട്ടിരിക്കുന്നു?
+Dialogue: 00:00:54.00,00:01:09.00,S3,{\pos(1010,700)}Question 1
+Dialogue: 00:00:54.00,00:01:09.00,S4,{\pos(1010,800)}What's the proper command to do that? (please note that what I need is to be notified, with a sound and possibly with a message, so I can accept any solution in these regards).
+Dialogue: 00:01:09.50,00:01:20.00,S1,{\pos(1010,250)}ഉത്തരം ഇതാണ്...   
+Dialogue: 00:01:09.50,00:01:20.00,S2,{\pos(1010,350)}എമിലിനെ അമ്മായി അപ്പൻ ആണ് ഈശോ 
+Dialogue: 00:01:09.50,00:01:20.00,S3,{\pos(1010,700)}And the Answer is...
+Dialogue: 00:01:09.50,00:01:20.00,S4,{\pos(1010,800)}Easo is emils appayi appan and something more
+Dialogue: 00:01:20.50,00:01:31.00,S1,{\pos(1010,250)}ചോദ്യം 2
+Dialogue: 00:01:20.50,00:01:31.00,S2,{\pos(1010,450)}മഞ്ജുവിനെ  ചൂണ്ടിക്കാണിച്ചുകൊണ്ട് രാജു പറഞ്ഞു, "അവളുടെ ഏക സഹോദരന്റെ മകൻ  എന്റെ ഭാര്യയുടെ സഹോദരനാണ്".  മഞ്ജു രാജുവുമായി എങ്ങനെ ബന്ധപ്പെട്ടിരിക്കുന്നു?
+Dialogue: 00:01:20.50,00:01:31.00,S3,{\pos(1010,700)}Question 2
+Dialogue: 00:01:20.50,00:01:31.00,S4,{\pos(1010,800)}What's the proper command to do that? (please note that what I need is to be notified, with a sound and possibly with a message, so I can accept any solution in these regards).
+Dialogue: 00:01:31.50,00:01:46.00,S1,{\pos(1010,250)}ഉത്തരം 2 ഇതാണ്...   
+Dialogue: 00:01:31.50,00:01:46.00,S2,{\pos(1010,350)}മഞ്ജുവിന്റെ അമ്മായി അപ്പൻ ആണ് രാജു 
+Dialogue: 00:01:31.50,00:01:46.00,S3,{\pos(1010,700)}And the Answer 2 is...
+Dialogue: 00:01:31.50,00:01:46.00,S4,{\pos(1010,800)}Manju is something of someone
+Dialogue: 00:01:46.50,00:01:57.00,S1,{\pos(1010,250)}ചോദ്യം 1
+Dialogue: 00:01:46.50,00:01:57.00,S2,{\pos(1010,450)}എമിലിനെ ചൂണ്ടിക്കാണിച്ചുകൊണ്ട് ഈശോ പറഞ്ഞു, "അവളുടെ ഏക സഹോദരന്റെ മകൻ  എന്റെ ഭാര്യയുടെ സഹോദരനാണ്".  എമിൽ ഈശോയുമായി എങ്ങനെ ബന്ധപ്പെട്ടിരിക്കുന്നു?
+Dialogue: 00:01:46.50,00:01:57.00,S3,{\pos(1010,700)}Question 1
+Dialogue: 00:01:46.50,00:01:57.00,S4,{\pos(1010,800)}What's the proper command to do that? (please note that what I need is to be notified, with a sound and possibly with a message, so I can accept any solution in these regards).
+Dialogue: 00:01:57.50,00:02:20.00,S1,{\pos(1010,250)}ഉത്തരം ഇതാണ്...   
+Dialogue: 00:01:57.50,00:02:20.00,S2,{\pos(1010,350)}എമിലിനെ അമ്മായി അപ്പൻ ആണ് ഈശോ 
+Dialogue: 00:01:57.50,00:02:20.00,S3,{\pos(1010,700)}And the Answer is...
+Dialogue: 00:01:57.50,00:02:20.00,S4,{\pos(1010,800)}Easo is emils appayi appan and something more
+Dialogue: 00:02:20.50,00:02:31.00,S1,{\pos(1010,250)}ചോദ്യം 2
+Dialogue: 00:02:20.50,00:02:31.00,S2,{\pos(1010,450)}മഞ്ജുവിനെ  ചൂണ്ടിക്കാണിച്ചുകൊണ്ട് രാജു പറഞ്ഞു, "അവളുടെ ഏക സഹോദരന്റെ മകൻ  എന്റെ ഭാര്യയുടെ സഹോദരനാണ്".  മഞ്ജു രാജുവുമായി എങ്ങനെ ബന്ധപ്പെട്ടിരിക്കുന്നു?
+Dialogue: 00:02:20.50,00:02:31.00,S3,{\pos(1010,700)}Question 2
+Dialogue: 00:02:20.50,00:02:31.00,S4,{\pos(1010,800)}What's the proper command to do that? (please note that what I need is to be notified, with a sound and possibly with a message, so I can accept any solution in these regards).
+Dialogue: 00:02:31.50,00:02:41.00,S1,{\pos(1010,250)}ഉത്തരം 2 ഇതാണ്...   
+Dialogue: 00:02:31.50,00:02:41.00,S2,{\pos(1010,350)}മഞ്ജുവിന്റെ അമ്മായി അപ്പൻ ആണ് രാജു 
+Dialogue: 00:02:31.50,00:02:41.00,S3,{\pos(1010,700)}And the Answer 2 is...
+Dialogue: 00:02:31.50,00:02:41.00,S4,{\pos(1010,800)}Manju is something of someone
+Dialogue: 00:02:41.50,00:02:51.00,S1,{\pos(1010,250)}ചോദ്യം 1
+Dialogue: 00:02:41.50,00:02:51.00,S2,{\pos(1010,450)}എമിലിനെ ചൂണ്ടിക്കാണിച്ചുകൊണ്ട് ഈശോ പറഞ്ഞു, "അവളുടെ ഏക സഹോദരന്റെ മകൻ  എന്റെ ഭാര്യയുടെ സഹോദരനാണ്".  എമിൽ ഈശോയുമായി എങ്ങനെ ബന്ധപ്പെട്ടിരിക്കുന്നു?
+Dialogue: 00:02:41.50,00:02:51.00,S3,{\pos(1010,700)}Question 1
+Dialogue: 00:02:41.50,00:02:51.00,S4,{\pos(1010,800)}What's the proper command to do that? (please note that what I need is to be notified, with a sound and possibly with a message, so I can accept any solution in these regards).
+Dialogue: 00:02:51.50,00:03:06.00,S1,{\pos(1010,250)}ഉത്തരം ഇതാണ്...   
+Dialogue: 00:02:51.50,00:03:06.00,S2,{\pos(1010,350)}എമിലിനെ അമ്മായി   അപ്പൻ ആണ് ഈശോ 
+Dialogue: 00:02:51.50,00:03:06.00,S3,{\pos(1010,700)}And the Answer is...
+Dialogue: 00:02:51.50,00:03:06.00,S4,{\pos(1010,800)}Easo is emils appayi appan and something more
+Dialogue: 00:03:06.50,00:03:22.00,S1,{\pos(1010,250)}ചോദ്യം 2
+Dialogue: 00:03:06.50,00:03:22.00,S2,{\pos(1010,450)}മഞ്ജുവിനെ  ചൂണ്ടിക്കാണിച്ചുകൊണ്ട് രാജു പറഞ്ഞു, "അവളുടെ ഏക സഹോദരന്റെ മകൻ  എന്റെ ഭാര്യയുടെ സഹോദരനാണ്".  മഞ്ജു രാജുവുമായി എങ്ങനെ ബന്ധപ്പെട്ടിരിക്കുന്നു?
+Dialogue: 00:03:06.50,00:03:22.00,S3,{\pos(1010,700)}Question 2
+Dialogue: 00:03:06.50,00:03:22.00,S4,{\pos(1010,800)}What's the proper command to do that? (please note that what I need is to be notified, with a sound and possibly with a message, so I can accept any solution in these regards).
+Dialogue: 00:03:22.50,00:03:43.00,S1,{\pos(1010,250)}ഉത്തരം 2 ഇതാണ്...   
+Dialogue: 00:03:22.50,00:03:43.00,S2,{\pos(1010,350)}മഞ്ജുവിന്റെ അമ്മായി അപ്പൻ ആണ് രാജു 
+Dialogue: 00:03:22.50,00:03:43.00,S3,{\pos(1010,700)}And the Answer 2 is...
+Dialogue: 00:03:22.50,00:03:43.00,S4,{\pos(1010,800)}Manju is something of someone
+Dialogue: 00:03:43.50,00:03:50.00,S1,{\pos(1010,250)}ചോദ്യം ആണ് രാജു 1
+Dialogue: 00:03:43.50,00:03:50.00,S2,{\pos(1010,450)}1) മഞ്ജുവിനെ  ചൂണ്ടിക്കാണിച്ചുകൊണ്ട് രാജു പറഞ്ഞു, "അവളുടെ ഏക സഹോദരന്റെ മകൻ  എന്റെ ഭാര്യയുടെ സഹോദരനാണ്".  മഞ്ജു രാജുവുമായി എങ്ങനെ ബന്ധപ്പെട്ടിരിക്കുന്നു?
+Dialogue: 00:03:43.50,00:03:50.00,S3,{\pos(1010,700)}Question 1
+Dialogue: 00:03:43.50,00:03:50.00,S4,{\pos(1010,800)}What's the proper command to do that? (please note that what I need is to be notified, with a sound and possibly with a message, so I can accept any solution in these regards).
+Dialogue: 00:03:50.50,00:03:58.00,S1,{\pos(1010,250)}ചോദ്യം 2 ഇതാണ്...   
+Dialogue: 00:03:50.50,00:03:58.00,S2,{\pos(1010,350)}മഞ്ജുവിന്റെ അമ്മായി അപ്പൻ ആണ് രാജു 
+Dialogue: 00:03:50.50,00:03:58.00,S3,{\pos(1010,700)}And the Answer 2 is...
+Dialogue: 00:03:50.50,00:03:58.00,S4,{\pos(1010,800)}Manju is something of someone

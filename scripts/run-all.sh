@@ -6,7 +6,7 @@
 # $ ffmpeg -i chodhya-kudukka.mp4 -c:v libx264 -crf 24 -pix_fmt yuv420p -tune film -c:a aac -b:a 192k -ar 44100 -vol 300 -strict -2 -speed fastest chodhya-kudukka_2.mp4
 
 #cd /e/everything-movies/source/oforg-video/scripts
-ffmpeg -i transition_bars_horizontal_two1.mp4 -vf "ass=input2.ass" -y output_subtitles.mp4
+ffmpeg -i background-final.mp4 -vf "ass=input-malayalam.ass" -y output_subtitles.mp4
 
 #ffmpeg -i output_subtitles.mp4 -stream_loop -1 -i loop-only.mp3 -shortest -map 0:v:0 -map 1:a:0 -y output_audio_2.mp4
 
@@ -19,3 +19,12 @@ ffmpeg -i output_audio.mp4 -vf "movie=digital_clock.mp4, scale=192: -1 [inner]; 
 
 #:: Concatenate Files
 ffmpeg -f concat -i mylist.txt -y output_final_completed.mp4
+
+
+tput bel
+sleep 1 
+tput bel
+sleep 1 
+tput bel
+sleep 1 
+tput bel
