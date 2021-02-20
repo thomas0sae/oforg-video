@@ -7,12 +7,12 @@ WrapStyle: 0
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,ML-TTKarthika,88,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,-1,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
-Style: S1,ML-TTKarthika,70,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,-1,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
-Style: S2,ML-TTKarthika,50,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,-1,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
-Style: S21,ML-TTKarthika,25,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,-1,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
-Style: S3,Calibri,60,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,0,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
-Style: S4,Calibri Light,40,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,0,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
-Style: S5,Comic Sans MS Italic,25,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,0,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
+Style: S1,ML-TTKarthika,70,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,0,1,0,0,120,120,0,0,1,1,0,2,10,0,10,0
+Style: S2,ML-TTKarthika,50,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,1,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
+Style: S21,ML-TTKarthika,25,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,0,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
+Style: S3,Calibri,60,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,0,1,0,0,120,120,0,0,1,1,0,2,10,0,10,0
+Style: S4,Calibri Light,40,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,1,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
+Style: S5,Comic Sans MS Italic,30,&HFFFFFF,&HFFFFFF,&HFFFFFF,&HFFFFFF,1,0,0,0,120,120,0,0,1,1,0,2,10,0,10,0
 
 [Events]
 Format: Start, End, Style, Text
@@ -84,7 +84,9 @@ Dialogue: 00:03:43.50,00:03:50.00,S1,{\pos(1010,250)}ചോദ്യം ആണ�
 Dialogue: 00:03:43.50,00:03:50.00,S2,{\pos(1010,450)}1) മഞ്ജുവിനെ  ചൂണ്ടിക്കാണിച്ചുകൊണ്ട് രാജു പറഞ്ഞു, "അവളുടെ ഏക സഹോദരന്റെ മകൻ  എന്റെ ഭാര്യയുടെ സഹോദരനാണ്".  മഞ്ജു രാജുവുമായി എങ്ങനെ ബന്ധപ്പെട്ടിരിക്കുന്നു?
 Dialogue: 00:03:43.50,00:03:50.00,S3,{\pos(1010,700)}Question 1
 Dialogue: 00:03:43.50,00:03:50.00,S4,{\pos(1010,800)}What's the proper command to do that? (please note that what I need is to be notified, with a sound and possibly with a message, so I can accept any solution in these regards).
-Dialogue: 00:03:50.50,00:03:58.00,S1,{\pos(1010,250)}ചോദ്യം 2 ഇതാണ്...   
-Dialogue: 00:03:50.50,00:03:58.00,S2,{\pos(1010,350)}മഞ്ജുവിന്റെ അമ്മായി അപ്പൻ ആണ് രാജു 
-Dialogue: 00:03:50.50,00:03:58.00,S3,{\pos(1010,700)}And the Answer 2 is...
-Dialogue: 00:03:50.50,00:03:58.00,S4,{\pos(1010,800)}Manju is something of someone
+Dialogue: 00:03:50.50,00:03:59.00,S1,{\pos(1010,250)}ചോദ്യം 2 ഇതാണ്...   
+Dialogue: 00:03:50.50,00:03:59.00,S2,{\pos(1010,350)}മഞ്ജുവിന്റെ അമ്മായി അപ്പൻ ആണ് രാജു 
+Dialogue: 00:03:50.50,00:03:59.00,S3,{\pos(1010,700)}And the Answer 2 is...
+Dialogue: 00:03:50.50,00:03:59.00,S4,{\pos(1010,800)}Manju is something of someone
+Dialogue: 00:04:00.00,00:04:13.00,S5,{\pos(1010,800)} Please subscribe and press the bell button for more smarter and intelligent questions...
+Dialogue: 00:04:00.00,00:04:13.00,S21,{\pos(1010,900)} കൂടുതൽ മികച്ചതും ബുദ്ധിപരവുമായ ചോദ്യങ്ങൾക്ക് ദയവായി സബ്സ്ക്രൈബ് ചെയ്ത് ബെൽ ബട്ടൺ അമർത്തുക ... 

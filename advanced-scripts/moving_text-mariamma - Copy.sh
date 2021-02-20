@@ -249,5 +249,18 @@ ffmpeg -i movie.mp4 -ss 00:00:03 -t 00:00:08 -async 1 cut.mp4
 
 Some say this was better
 ffmpeg -ss 00:01:00 -i input.mp4 -to 00:02:00 -c copy output.mp4
+ffmpeg -ss 00:00:00 -i transition_bars_horizontal_two1.mp4 -to 00:01:20 -c copy transition_bars_horizontal_two2.mp4
 
+
+join music
+$ ffmpeg -i "concat:loop-question.mp3|loop-question.mp3|loop-question.mp3|end-question.mp3" -acodec copy output.mp3
+
+ffmpeg -f concat -i audio-join.txt -c copy final.mp4
+
+
+
+
+To add at a specific place
+ffmpeg -y -i output123.mp4 -itsoffset 00:00:07 -i output.mp3 -map 0:0 -map 1:0 -c:v copy -preset ultrafast -async 1 out1111111.mp4
+ffmpeg -y -i output123.mp4 -i output.mp3 -map 0:0 -map 1:0 -c:v copy -preset ultrafast -async 1 out1111111.mp4
 

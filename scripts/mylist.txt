@@ -1,6 +1,4 @@
-file transition_bars_horizontal_two2.mp4
-duration 80
-file transition_bars_horizontal_two2.mp4
-duration 80
-file transition_bars_horizontal_two1.mp4
-duration 86
+file invideo.mp4
+duration 07
+file output_audio_sub_clk.mp4
+duration 246

@@ -24,3 +24,6 @@ hs_err_pid*
 /.DS_Store
 *.mp4
 *.mov
+
+dont_need/
+/dont_need
